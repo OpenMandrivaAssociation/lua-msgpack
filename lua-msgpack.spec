@@ -5,7 +5,7 @@
 
 Name:		lua-msgpack
 Version:	0.3.4
-Release:	1
+Release:	2
 Summary:	Parsing Expression Grammars for Lua
 
 Group:		Development/Other
