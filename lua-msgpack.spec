@@ -4,14 +4,14 @@
 %define debug_package %nil
 
 Name:		lua-msgpack
-Version:	0.3.4
-Release:	2
-Summary:	Parsing Expression Grammars for Lua
+Version:	0.5.2
+Release:	1
+Summary:	Lua implementation of the MessagePack serialization format
 
 Group:		Development/Other
 License:	MIT
-URL:		http://fperrad.github.io/lua-MessagePack/
-Source0:	https://github.com/fperrad/lua-MessagePack/archive/%{version}.tar.gz
+URL:		https://fperrad.frama.io/lua-MessagePack/
+Source0:	https://framagit.org/fperrad/lua-MessagePack/-/archive/%{version}/lua-MessagePack-%{version}.tar.bz2
 
 BuildRequires:	lua-devel >= %{luaver}
 Requires:	lua >= %{luaver}
@@ -22,7 +22,7 @@ LPeg is a new pattern-matching library for Lua, based on Parsing Expression
 Grammars (PEGs).
 
 %prep
-%setup -qn lua-MessagePack-%{version}
+%autosetup -p1 -n lua-MessagePack-%{version}
 
 %build
 
