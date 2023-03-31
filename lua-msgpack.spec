@@ -5,7 +5,7 @@
 
 Name:		lua-msgpack
 Version:	0.5.2
-Release:	1
+Release:	2
 Summary:	Lua implementation of the MessagePack serialization format
 
 Group:		Development/Other
