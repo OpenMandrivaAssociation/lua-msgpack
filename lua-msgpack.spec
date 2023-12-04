@@ -4,8 +4,8 @@
 %define debug_package %nil
 
 Name:		lua-msgpack
-Version:	0.5.2
-Release:	2
+Version:	0.5.4
+Release:	1
 Summary:	Lua implementation of the MessagePack serialization format
 
 Group:		Development/Other
